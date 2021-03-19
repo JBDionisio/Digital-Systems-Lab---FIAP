@@ -20,6 +20,6 @@ void main() {
       
       delay_ms(20);
       while(portb.RB0 == 0){}
-      delay_ms(20);
+      delay_ms(50);
     }
 }
